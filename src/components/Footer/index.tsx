@@ -6,8 +6,8 @@ export function Footer() {
 
   return (
     <footer className="border-t bg-background">
-      <div className="container max-w-6xl mx-auto px-4 py-8">
-        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="container max-w-6xl mx-auto px-4 mt-2">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4 mt-2">
           <div className="flex space-x-3">
             <a
               href="tel:+4619269767"
@@ -37,14 +37,15 @@ export function Footer() {
           </div>
         </div>
         <div>
-          <div className="font-bold mt-4 mb-2 text-lg">
-            <span className="text-orange-600">AAL</span>
-            goritm
-            <span className="text-orange-600">()</span>
+          <div className=" mt-8 text-sm">
+            <p className="text-sm text-muted-foreground">
+              © {currentYear}
+              <span className="text-orange-600 font-bold"> AAL</span>
+              goritm
+              <span className="text-orange-600 font-bold">()</span>. Alla
+              rättigheter förbehålls.
+            </p>
           </div>
-          <p className="text-sm text-muted-foreground">
-            © {currentYear} AALgoritm. Alla rättigheter förbehålls.
-          </p>
         </div>
       </div>
     </footer>
