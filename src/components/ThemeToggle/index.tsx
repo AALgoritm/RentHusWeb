@@ -26,7 +26,7 @@ export default function ThemeToggle() {
   return (
     <button
       onClick={() => setIsDarkMode(!isDarkMode)}
-      className=" p-2 rounded dark:bg-zinc-900 text-gray-800 dark:text-gray-200 cursor-pointer h-8 w-8 flex items-center justify-center"
+      className=" p-2 rounded dark:bg-zinc-900 text-gray-800 dark:text-gray-200 cursor-pointer h-12 w-12  md:h-8 md:w-8 flex items-center justify-center"
     >
       {isDarkMode ? <Moon /> : <Sun />}
     </button>

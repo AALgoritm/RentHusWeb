@@ -1,6 +1,6 @@
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import { Mail, Menu, Phone } from "lucide-react";
 import { Link } from "react-router-dom";
 import ThemeToggle from "../ThemeToggle";
 import { useState, useEffect } from "react"; // Add useEffect
@@ -53,6 +53,29 @@ export function Navbar() {
             />
           </Link>
         </div>
+        <div className="flex space-x-3 ">
+          <a
+            href="tel:+4619269767"
+            className="text-muted-foreground hover:text-foreground flex items-center gap-2"
+          >
+            <Phone className="h-5 w-5" />
+            <span className="mr-2 hidden md:inline">019-26 97 67</span>
+          </a>
+        </div>
+        {/* <div className="flex space-x-3 text-muted-foreground hover:text-foreground flex items-center ">
+          <Clock className="h-5 w-5 " />
+          <span>08:00-15:00</span>
+        </div> */}
+
+        <div className="flex space-x-3">
+          <a
+            href="mailto:info@renthus.com"
+            className="text-muted-foreground hover:text-foreground flex items-center gap-2"
+          >
+            <Mail className="h-5 w-5" />
+            <span className="hidden md:inline">info@renthus.com</span>
+          </a>
+        </div>
 
         <nav className="hidden md:flex items-center gap-6">
           <Link
@@ -103,7 +126,7 @@ export function Navbar() {
                 onClick={handleLinkClick}
                 className="text-lg font-medium transition-colors hover:text-primary flex items-center py-2"
               >
-                Om oss
+                Våra tjänster
               </Link>
               <div className="h-px bg-muted" />
 
@@ -116,7 +139,7 @@ export function Navbar() {
               </Link>
               <div className="h-px bg-muted" />
 
-              <div className="mt-2">
+              <div className="mt-2 h-6 w-6 ">
                 <ThemeToggle />
               </div>
             </nav>
