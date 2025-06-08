@@ -1,6 +1,7 @@
 import CarinaHome from "@/components/HomePage/CarinaHome";
 import HeroSection from "@/components/HomePage/HeroSection";
 import OurServices from "@/components/HomePage/OurServices";
+import Warranty from "@/components/HomePage/Warranty";
 import WipeStove from "@/components/HomePage/WipeStove";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
         <WipeStove className="my-8" />
         <CarinaHome />
         <OurServices />
+        <Warranty />
       </div>
     </>
   );
