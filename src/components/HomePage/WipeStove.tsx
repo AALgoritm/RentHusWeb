@@ -8,7 +8,13 @@ interface WipeStoveProps {
 const WipeStove: React.FC<WipeStoveProps> = ({ className }) => {
   return (
     <div className={className}>
-      <video autoPlay loop muted playsInline className="w-full h-auto">
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="w-full h-auto rounded-xl"
+      >
         <source src={wipeStoveVideo} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
