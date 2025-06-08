@@ -64,11 +64,11 @@ export function Navbar() {
           </Link>
 
           <Link
-            to="/about-us"
+            to="/services"
             onClick={() => window.scrollTo(0, 0)}
             className="text-sm font-medium transition-colors hover:text-primary"
           >
-            Om oss
+            Våra tjänster
           </Link>
           <Link
             to="/contact"

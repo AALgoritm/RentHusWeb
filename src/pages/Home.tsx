@@ -1,7 +1,11 @@
+import HeroSection from "@/components/HomePage/HeroSection";
+
 const Home = () => {
   return (
     <>
-      <div>HEJ HEJ</div>
+      <div className="container mx-auto px-4 py-8">
+        <HeroSection />
+      </div>
     </>
   );
 };
