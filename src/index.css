@@ -111,9 +111,15 @@
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
+  :root {
+    min-height: 100vh;
   }
+  
+  html, 
+  body {
+    @apply h-full;
+  }
+
   body {
     @apply bg-background text-foreground;
   }
