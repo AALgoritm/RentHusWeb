@@ -39,6 +39,7 @@ export function Footer() {
           <div className=" mt-8 text-sm">
             <p className="text-sm text-muted-foreground">
               © {currentYear}
+              <span> gjord av</span>
               <span className="text-orange-600 font-bold"> AAL</span>
               goritm
               <span className="text-orange-600 font-bold">()</span>. Alla
