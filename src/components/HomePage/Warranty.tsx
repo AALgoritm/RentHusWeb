@@ -56,7 +56,14 @@ const Warranty = () => {
             className="mt-4 md:mt-6 px-6 py-2 md:px-8 md:py-4 bg-transparent border border-white text-white hover:bg-white/10 transition-all duration-300"
             asChild
           >
-            <Link to="/contact">Boka möte</Link>
+            <Link
+              to="/contact"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
+            >
+              Boka möte
+            </Link>
           </Button>
         </div>
       </div>

@@ -150,6 +150,9 @@ const OurServices: React.FC = () => {
                   >
                     <Link
                       to={service.link}
+                      onClick={() => {
+                        window.scrollTo(0, 0);
+                      }}
                       className="flex items-center justify-center"
                     >
                       Läs mer
@@ -164,6 +167,9 @@ const OurServices: React.FC = () => {
                   >
                     <Link
                       to={service.link}
+                      onClick={() => {
+                        window.scrollTo(0, 0);
+                      }}
                       className="flex items-center justify-center"
                     >
                       Kontakta oss

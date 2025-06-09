@@ -35,14 +35,20 @@ const HeroSection = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/boka-mote"
+              to="/contact"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
               className="inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded-md text-white bg-teal-700 hover:bg-teal-600 transition-all duration-300 shadow-lg hover:shadow-teal-700/30"
             >
               Boka Möte
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link
-              to="/tjanster"
+              to="/our-services"
+              onClick={() => {
+                window.scrollTo(0, 0);
+              }}
               className="inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded-md text-zinc-900 dark:text-gray-200 border border-zinc-500 hover:border-zinc-700 hover:bg-zinc-100 dark:hover:border-gray-300 dark:hover:bg-zinc-800 transition-all duration-300 shadow-lg"
             >
               Våra Tjänster
