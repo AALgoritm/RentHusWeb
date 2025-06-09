@@ -45,7 +45,7 @@ const HeroSection = () => {
               <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
             <Link
-              to="/our-services"
+              to="/services"
               onClick={() => {
                 window.scrollTo(0, 0);
               }}
