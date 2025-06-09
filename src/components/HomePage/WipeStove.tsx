@@ -13,7 +13,7 @@ const WipeStove: React.FC<WipeStoveProps> = ({ className }) => {
         loop
         muted
         playsInline
-        className="w-full h-auto rounded-xl"
+        className="w-full h-[150px] sm:h-auto object-cover rounded-xl"
       >
         <source src={wipeStoveVideo} type="video/mp4" />
         Your browser does not support the video tag.
