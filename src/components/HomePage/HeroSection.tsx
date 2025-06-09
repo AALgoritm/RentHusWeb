@@ -49,7 +49,7 @@ const HeroSection = () => {
               onClick={() => {
                 window.scrollTo(0, 0);
               }}
-              className="inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded-md text-zinc-900 dark:text-gray-200 border border-zinc-500 hover:border-zinc-700 hover:bg-zinc-100 dark:hover:border-gray-300 dark:hover:bg-zinc-800 transition-all duration-300 shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-4 text-base font-medium rounded-md border border-teal-600 text-teal-700 hover:text-teal-800 hover:bg-teal-50 hover:border-teal-700 transition-all duration-300 dark:border-teal-500 dark:text-teal-400 dark:hover:text-teal-300 dark:hover:bg-teal-900/30 dark:hover:border-teal-400"
             >
               Våra Tjänster
             </Link>
