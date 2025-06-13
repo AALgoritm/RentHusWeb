@@ -39,11 +39,18 @@ export function Footer() {
           <div className=" mt-8 text-sm">
             <p className="text-sm text-muted-foreground">
               © {currentYear}
-              <span> upprättad av</span>
-              <span className="text-orange-600 font-bold"> AAL</span>
-              goritm
-              <span className="text-orange-600 font-bold">()</span>. Alla
-              rättigheter förbehålls.
+              <span> upprättad av</span>{" "}
+              <a
+                href="https://www.aalgoritm.se"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                <span className="text-orange-600 font-bold">AAL</span>
+                goritm
+                <span className="text-orange-600 font-bold">()</span>
+              </a>
+              . Alla rättigheter förbehålls.
             </p>
           </div>
         </div>
